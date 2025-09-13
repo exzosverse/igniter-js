@@ -177,6 +177,16 @@ Thumbs.db
 # Copilot
 .copilot/
 
+# Security - NEVER commit credentials
+.github/credencials/
+.github/credentials/
+*.pem
+*.key
+*.private-key.*
+private-key.pem
+credentials/
+secrets/
+
 # Trae AI
 .trae/
 .gemini/
